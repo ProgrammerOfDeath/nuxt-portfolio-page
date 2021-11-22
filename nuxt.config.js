@@ -1,3 +1,5 @@
+import i18n from './config/i18n'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -43,7 +45,17 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
+    '@nuxtjs/i18n'
   ],
+
+  i18n: {
+    locales: [
+      { code: 'en', iso: 'en-US', file: 'en.js', dir: 'ltr'},
+      { code: 'de', iso: 'de-DE', file: 'de.js', dir: 'lrt'}
+    ],
+    defaultLocale: 'en',
+    vueI18n: i18n
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

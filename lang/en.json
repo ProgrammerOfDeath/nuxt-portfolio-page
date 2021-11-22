@@ -1,0 +1,10 @@
+{
+  "introSection": {
+    "textContent": "Hi, my name is Rene!"
+  },
+  "navLinks": {
+    "aboutMe": "about me",
+    "cv": "timeline",
+    "projects": "projects"
+  }
+}

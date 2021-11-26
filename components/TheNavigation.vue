@@ -1,6 +1,6 @@
 <template>
   <header class="container">
-    <b-navbar>
+    <b-navbar class="main-navbar bg--dark-main">
       <template #brand>
         <b-navbar-item tag="router-link" :to="{path: '/'}">
           <p>rene.hotho.dev</p>
@@ -21,6 +21,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "~/assets/scss/variables";
 
+.main-navbar {
+  .navbar-item {
+    color: $font-primary;
+    &:hover {
+      color: $color-accent;
+      background: transparent;
+    }
+  }
+}
 </style>

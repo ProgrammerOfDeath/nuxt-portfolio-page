@@ -1,11 +1,7 @@
 <template>
   <div>
     <!-- INTRO SECTION -->
-    <ImageContent 
-      direction="rtl"
-      image-src="/"
-      :text-content="$t('introSection.textContent')"
-    ></ImageContent>
+    <HeroSection />
   </div>
 </template>
 

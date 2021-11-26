@@ -1,0 +1,12 @@
+@import "variables";
+@import "utils";
+
+body {
+  font-size: 1rem;
+  color: $font-primary;
+  background-color: $color-background-primary;
+}
+
+.main-content {
+  height: 100vh;
+}

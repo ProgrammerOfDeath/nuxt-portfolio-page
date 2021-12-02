@@ -1,7 +1,10 @@
 @import "variables";
 @import "utils";
+@import "fonts";
+@import "buttons";
 
 body {
+  font-family: "Nunito Medium";
   font-size: 1rem;
   color: $font-primary;
   background-color: $color-background-primary;

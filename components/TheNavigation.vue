@@ -1,5 +1,5 @@
 <template>
-  <header class="container">
+  <header class="header column">
     <b-navbar class="main-navbar bg--dark-main">
       <template #brand>
         <b-navbar-item tag="router-link" :to="{path: '/'}">
@@ -24,7 +24,12 @@ export default {
 <style lang="scss">
 @import "~/assets/scss/variables";
 
+.header {
+  padding: 10px;
+}
+
 .main-navbar {
+  font-size: 1.2rem;
   .navbar-item {
     color: $font-primary;
     &:hover {

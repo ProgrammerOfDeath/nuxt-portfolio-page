@@ -54,6 +54,7 @@ export default {
 <style lang="scss">
 .hero-section {
   margin-top: 3rem;
+  height: 80vh;
   h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;

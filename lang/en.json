@@ -6,5 +6,9 @@
     "aboutMe": "about me",
     "cv": "timeline",
     "projects": "projects"
+  },
+  "sectionDoing": {
+    "title": "What I'm doing",
+    "content": "I'm building front-end web applications with various JavaScript frameworks. Mostly I'm working with Vue.js and Node.js. "
   }
 }

@@ -6,5 +6,9 @@
     "aboutMe": "über mich",
     "cv": "lebenslauf",
     "projects": "projekte"
+  },
+  "sectionDoing": {
+    "title": "Was ich tue",
+    "content": "Ich baue performante Front-End Web Applikationen mit verschiedenen JavaScript Frameworks. Die meiste Zeit nutze ich Vue.js und Node.js"
   }
 }

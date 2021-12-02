@@ -1,9 +1,40 @@
 <template>
-  <section class="hero-section section">
+  <section class="hero-section section columns">
     <div class="hero-section__content">
-      <h1>{{ $t('introSection.textContent') }}</h1>
+      <h1>Hi, I'm Rene.</h1>
+      <p class="font-2-0">I am a young full-stack web developer who likes to build performant and beautiful web applications and interfaces using various JavaScript frameworks.</p>
+      <div class="hero-section__social d-flex">
+        <a class="social-button--rounded" href="#">
+          <b-icon
+            icon="facebook"
+            size="is-medium">
+          </b-icon>
+        </a>
+        <a class="social-button--rounded" href="#">
+          <b-icon
+            icon="linkedin"
+            size="is-medium">
+          </b-icon>
+        </a>
+        <a class="social-button--rounded" href="#">
+          <b-icon
+            icon="github"
+            size="is-medium">
+          </b-icon>
+        </a>
+        <a class="social-button--rounded" href="#">
+          <b-icon
+            icon="email"
+            size="is-medium">
+          </b-icon>
+        </a>
+      </div>
+      <div class="hero-section__cta">
+        <b-button class="mr-3" type="is-primary" outlined>Contact me</b-button>
+        <b-button type="is-primary" outlined>CV</b-button>
+      </div>
     </div>
-    <div class="hero-section__image">
+    <div class="hero-section__image column is-half">
       <img :src="imageSrc" alt="Hero Image">
     </div>
   </section>
@@ -23,17 +54,13 @@ export default {
 <style lang="scss">
 .hero-section {
   margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  @media (min-width: 768px) {
-    flex-direction: row;
-  }
   h1 {
     font-size: 3rem;
     margin-bottom: 1.5rem;
   }
-  .hero-section__image {
-    flex: 1 0 65%;
+  .hero-section__social,
+  .hero-section__cta {
+    margin-top: 1.5rem;
   }
 }
 </style>

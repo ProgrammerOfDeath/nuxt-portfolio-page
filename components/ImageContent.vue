@@ -1,11 +1,17 @@
 <template>
-  <section class="image-content" :class="direction">
+  <section class="image-content section" :class="direction">
     <div class="columns">
       <div class="column">
-        <img :src="imageSrc" alt="Image">
+        <img class="image-content__image" :src="imageSrc" alt="Image">
       </div>
-      <div class="column">
-        {{ textContent }}
+      <div class="column is-half">
+        <h2 v-if="title">{{ title }}</h2>
+        <p class="font-2-0 mt-3">
+          {{ textContent }}
+        </p>
+        <div>
+          <slot name="custom-content" />
+        </div>
       </div>
     </div>
 
@@ -26,11 +32,20 @@ export default {
     textContent: {
       type: String,
       required: true
+    },
+    title: {
+      type: String,
+      required: false,
+      default: ""
     }
   },
 }
 </script>
 
-<style>
-
+<style lang="scss">
+.image-content {
+  .image-content__image {
+    padding: 0 5rem;
+  }
+}
 </style>

@@ -1,11 +1,9 @@
 <template>
   <div>
     <TheNavigation />
-    <section class="main-content columns">
-      <div class="container column is-10">
-        <Nuxt />
-      </div>
-    </section>
+    <div class="main-content container is-fluid">
+      <Nuxt />
+    </div>
   </div>
 </template>
 

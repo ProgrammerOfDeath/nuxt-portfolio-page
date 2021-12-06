@@ -1,6 +1,6 @@
 <template>
   <section class="image-content section" :class="direction">
-    <div class="columns">
+    <div class="columns" :class="direction">
       <div class="column">
         <img class="image-content__image" :src="imageSrc" alt="Image">
       </div>
@@ -43,6 +43,9 @@ export default {
 </script>
 
 <style lang="scss">
+.rtl {
+  flex-direction: row-reverse;
+}
 .image-content {
   .image-content__image {
     padding: 0 5rem;

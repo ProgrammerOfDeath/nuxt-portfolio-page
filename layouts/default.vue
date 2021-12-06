@@ -4,6 +4,7 @@
     <div class="main-content container is-fluid">
       <Nuxt />
     </div>
+    <TheFooter />
   </div>
 </template>
 

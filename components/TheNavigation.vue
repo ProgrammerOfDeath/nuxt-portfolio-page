@@ -7,9 +7,10 @@
         </b-navbar-item>
       </template>
       <template #end>
-        <b-navbar-item>{{ $t('navLinks.aboutMe') }}</b-navbar-item>
-        <b-navbar-item>{{ $t('navLinks.cv') }}</b-navbar-item>
-        <b-navbar-item>{{ $t('navLinks.projects') }}</b-navbar-item>
+        <b-navbar-item tag="a" href="#about">{{ $t('navLinks.aboutMe') }}</b-navbar-item>
+        <b-navbar-item tag="a" href="#skills">{{ $t('navLinks.skills') }}</b-navbar-item>
+        <b-navbar-item tag="a" href="#education">{{ $t('navLinks.education') }}</b-navbar-item>
+        <b-navbar-item tag="a" href="#projects">{{ $t('navLinks.projects') }}</b-navbar-item>
       </template>
     </b-navbar>
   </header>

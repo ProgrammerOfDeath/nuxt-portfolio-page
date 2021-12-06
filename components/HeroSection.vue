@@ -1,8 +1,8 @@
 <template>
   <section class="hero-section section columns">
     <div class="hero-section__content">
-      <h1>Hi, I'm Rene.</h1>
-      <p class="font-2-0">I am a young full-stack web developer who likes to build performant and beautiful web applications and interfaces using various JavaScript frameworks.</p>
+      <h1>{{ $t('introSection.title') }}</h1>
+      <p class="font-2-0">{{ $t('introSection.textContent') }}</p>
       <div class="hero-section__social d-flex">
         <a class="social-button--rounded" href="#">
           <b-icon
@@ -30,8 +30,8 @@
         </a>
       </div>
       <div class="hero-section__cta">
-        <b-button class="mr-3" type="is-primary" outlined>Contact me</b-button>
-        <b-button type="is-primary" outlined>CV</b-button>
+        <b-button class="mr-3" type="is-primary" outlined>{{ $t('button.contact') }}</b-button>
+        <b-button type="is-primary" outlined>{{ $t('button.cv') }}</b-button>
       </div>
     </div>
     <div class="hero-section__image column is-half">

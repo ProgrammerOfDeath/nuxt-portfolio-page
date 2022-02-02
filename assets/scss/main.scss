@@ -1,0 +1,28 @@
+@import "variables";
+@import "utils";
+@import "fonts";
+@import "buttons";
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito Medium";
+  font-size: 1rem;
+  color: $font-primary;
+  background-color: $color-background-primary;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+.custom-link {
+  color: $font-primary;
+  &:hover,
+  &:active {
+    color: $color-accent;
+  }
+}

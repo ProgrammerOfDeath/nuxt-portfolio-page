@@ -1,10 +1,37 @@
 {
   "introSection": {
-    "textContent": "Hey, ich bin Rene!"
+    "title": "Hi, ich bin Rene.",
+    "textContent": "Ich bin ein junger Fullstack Web Entwickler mit einer Leidenschaft für schöne performante Web-Anwendungen und Interfaces, der gerne verschiedene JavaScript Frameworks nutzt."
   },
   "navLinks": {
     "aboutMe": "über mich",
-    "cv": "lebenslauf",
-    "projects": "projekte"
+    "education": "ausbildung",
+    "projects": "projekte",
+    "skills": "skills"
+  },
+  "sectionDoing": {
+    "title": "Was ich tue",
+    "content": "Ich baue performante Front-End Web Applikationen mit verschiedenen JavaScript Frameworks. Die meiste Zeit nutze ich Vue.js und Node.js"
+  },
+  "sectionEducation": {
+    "itSpecialist": {
+      "time": "2019 - 2020",
+      "title": "Wirtschafsakademie Nord + advocado GmbH",
+      "content": "Praktische Prüfung zum Fachinformatiker Anwendungsentwicklung"
+    },
+    "technicalAssistent": {
+      "time": "2017 - 2019",
+      "title": "Wirtschaftsakademie Nord gGmbH",
+      "content": "Ausbildung zum technischen Assistenten für Informatik"
+    },
+    "university": {
+      "time": "2015 - 2017",
+      "title": "Universität Greifswald",
+      "content": "Studium der Rechtswissenschaften ohne Abschluss"
+    }
+  },
+  "button": {
+    "contact": "Schreib mir",
+    "cv": "Lebenslauf"
   }
 }

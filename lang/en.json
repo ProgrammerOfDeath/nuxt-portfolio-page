@@ -1,10 +1,37 @@
 {
   "introSection": {
-    "textContent": "Hi, my name is Rene!"
+    "title": "Hi, I'm Rene.",
+    "textContent": "I am a young full-stack web developer who likes to build performant and beautiful web applications and interfaces using various JavaScript frameworks."
   },
   "navLinks": {
     "aboutMe": "about me",
-    "cv": "timeline",
-    "projects": "projects"
+    "education": "education",
+    "projects": "projects",
+    "skills": "skills"
+  },
+  "sectionDoing": {
+    "title": "What I'm doing",
+    "content": "I'm building front-end web applications with various JavaScript frameworks. Mostly I'm working with Vue.js and Node.js. "
+  },
+  "sectionEducation": {
+    "itSpecialist": {
+      "time": "2019 - 2020",
+      "title": "Wirtschafsakademie Nord + advocado GmbH",
+      "content": "Examination for IT specialist application development"
+    },
+    "technicalAssistent": {
+      "time": "2017 - 2019",
+      "title": "Wirtschaftsakademie Nord gGmbH",
+      "content": "Degree technical assistant for computer science"
+    },
+    "university": {
+      "time": "2015 - 2017",
+      "title": "University of Greifswald",
+      "content": "Study of law without a degree"
+    }
+  },
+  "button": {
+    "contact": "Contact me",
+    "cv": "Resumee"
   }
 }
